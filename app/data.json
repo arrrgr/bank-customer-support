@@ -1,0 +1,396 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": 
+    {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah",
+        "I would",
+        "I'd like that",
+        "I wouldn't mind",
+        "I would not mind",
+        "sure thing",
+        "yeah",
+        "yea",
+        "certainly",
+        "absolutely",
+        "totally",
+        "mhm",
+        "it is",
+        "that's right",
+        "that is right",
+        "uh huh",
+        "uh-huh"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "no, I'm okay",
+        "not right now",
+        "not this time",
+        "nah",
+        "not this moment",
+        "not now",
+        "not what I wanted",
+        "not what",
+        "it's not",
+        "it isn't",
+        "isn't",
+        "unlikely",
+        "it's highly unlikely",
+        "not any time soon",
+        "not anytime soon",
+        "not really",
+        "not at all",
+        "I wouldn't say that"
+      ]
+    },
+
+    "international_student": 
+    {
+      "includes": 
+      [
+        "international student",
+        "I am an international student",
+        "I'm actually an international student",
+        "student from another country", 
+        "I'm a student from another country and",
+        "study abroad",
+        "study abroad here in America",
+        "study abroad here in the United States",
+        "study abroad here in the US",
+        "I'm an international student",
+        "for international students",
+        "insternational students",
+        "students who study abroad"
+      ]
+    },
+    "debit_card": {
+      "includes": [
+        "I'm looking for a debit card",        
+        "debit card",
+        "get a debit card with Chase",
+        "I wonder if I could get a debit card with you guys",
+        "get a debit card",
+        "open a checking account",
+        "would like to apply for a debit card",
+        "apply for debit card",
+        "apply for checking account"
+      ]
+    },
+    "open_debit_docs_needed": {
+      "includes": [
+        "what type of documents do I need to get a debit card",
+        "what type of documents I need to get a debit card",
+        "what kind of documents do I need for a checking account application",
+        "kind of docs do I need to apply for a debit card",
+        "type of docs do I need to bring to get my debit card application processed",
+        "any docs to apply for the debit card",
+        "what are the documents do I need to apply for the debit card",
+        "kind of documents do I need to submit to get my debit card application"
+      ]
+    },
+    "how_soon_receive_debit_card": {
+      "includes": [
+        "how soon will I get my debit card",
+        "how quickly do you ship the debit card",
+        "how fast will you deliver the debit",
+        "how soon can I get the debit card delivered",
+        "does it take a long time to ship the debit"
+      ]
+    },
+    "debit_via_mail": {
+      "includes": [
+        "do you send the debit card via mail",
+        "do you ship the debit card via mail",
+        "do you send the debit card via post",
+        "get debit card via mail",
+        "will the debit card be delivered to my mailbox",
+        "will the debit card be delivered to my address"
+      ]
+    },
+    "debit_card_cashback": {
+      "includes": [
+        "is there any kind of cashback when it comes to debit cards",
+        "is there any kind of cashback for debit cards",
+        "do debit cards get any cashback",
+        "debit card get cashback",
+        "my debit card is eligible for any cashback",
+        "get any cashback while using this debit card"
+      ]
+    },
+    "credit_card": {
+      "includes": [
+        "I'm looking for a credit card",        
+        "credit card",
+        "get a credit card with Chase",
+        "I wonder if I could get a credit card with you guys",
+        "get a credit card",
+        "open a credit account",
+        "would like to apply for a credit card",
+        "apply for credit card",
+        "apply for credit account",
+        "is there a way for me to get a credit card",
+        "wondering if I'm eligible for a credit card",
+        "eligible to apply for a credit card",
+        "eligible to get a credit card"
+      ]
+    },
+    "fees_associated_credit": {
+      "includes": [
+        "do I have to pay anything for the credit card",
+        "are there any fees associated with the credit card",
+        "should I pay anything for the credit card",
+        "are there any credit card fees",
+        "credit fees",
+        "credit card fees"
+      ]
+    },
+    "documents_apply_credit": 
+    {
+      "includes": 
+      [
+        "what type of documents do I need to get a credit card",
+        "what type of documents I need to get a credit card",
+        "what kind of documents do I need for a credit account application",
+        "kind of docs do I need to apply for a credit card",
+        "type of docs do I need to bring to get my credit card application processed",
+        "any docs to apply for the credit card",
+        "what are the documents do I need to apply for the credit card",
+        "kind of documents do I need to submit to get my credit card application",
+        "kind of paperwork for credit",
+        "documents for credit"
+      ]
+    },
+
+    "no_ssn": 
+    {
+      "includes": 
+      [
+        "no SSN",
+        "I don't have a social",
+        "I don't have a social security card",
+        "I don't have a social security number",
+        "no social security number"
+      ]
+    },
+    "credit_monthly_fee": 
+    {
+      "includes": 
+      [
+        "is there a monthly fee I need to pay for the credit card",
+        "is there a monthly payment I need to pay for the credit account",
+        "monthly fee for credit",
+        "monthly fee associated with the credit",
+        "should I pay anything on the monthly basis for the credit card",
+        "credit card monthly fee"
+      ]
+    },
+    "debit_monthly_fee": 
+    {
+      "includes": 
+      [
+        "is there a monthly fee I need to pay for the debit card",
+        "is there a monthly payment I need to pay for the checking account",
+        "monthly fee for the checking account",
+        "monthly fee associated with the debit",
+        "should I pay anything on the monthly basis for the debit card",
+        "debit card monthly fee"
+      ]
+    },
+    "how_long_receive_credit_card": 
+    {
+      "includes": 
+      [
+        "how long does it take to get the credit card",
+        "how much time does it take to receive the credit card",
+        "how long would I need to wait to get my credit card",
+        "how long would it take for the credit card to come"
+      ]
+    },
+    "expedited_paid": 
+    {
+      "includes": 
+      [
+        "expedited paid",
+        "do I need to pay for expedited",
+        "does the expedited delivery cost",
+        "how much does the expedited delivery cost"
+      ]
+    },
+    "how_long_expedited": 
+    {
+      "includes": 
+      [
+        "how long does it take for the expedited delivery to come",
+        "how much time does it take for the expedited",
+        "how much time does the expedited take",
+        "how much time does the expedited delivery take"
+      ]
+    },
+    "got_you": 
+    {
+      "includes": 
+      [
+        "i got you",
+        "got that",
+        "got what you mean",
+        "I understand",
+        "understood",
+        "gotcha"
+      ]
+    },
+    "thank_you": 
+    {
+      "includes": 
+      [
+        "thank you",
+        "thank you so much",
+        "thanks a lot",
+        "thank you very much",
+        "I appreciate it",
+        "I appreciate that",
+        "appreciate your help"
+      ]
+    },
+    "that_would_be_it": 
+    {
+      "includes": 
+      [
+        "that's all",
+        "that would be it",
+        "that would be all",
+        "that's it"
+      ]
+    },
+
+    "need_help": 
+    {
+      "includes": 
+      [
+        "I need some help",
+        "I'd like some help",
+        "need help",
+        "need some help with"
+      ]
+    },
+
+    "bye": {
+      "includes": [
+        "bye",
+        "good bye",
+        "thanks bye",
+        "we're done",
+        "take it easy"
+      ]
+    }
+  },
+ 
+  "entities": {
+    "first_name": 
+    {
+      "open_set": true,
+      "values": 
+      [
+        {
+          "value": "John"
+        },
+        {
+          "value": "Bridgette"
+        },
+        {
+          "value": "James"
+        },
+        {
+          "value": "Sarah"
+        },
+        {
+          "value": "Jermaine"
+        },
+        {
+          "value": "Roseanne"
+        },
+        {
+          "value": "Ahmed"
+        },
+        {
+          "value": "Tony"
+        },
+        {
+          "value": "Jon"
+        }
+      ],
+      "includes": 
+      [
+        "(Oscar)[first_name]",
+        "(Danielle)[first_name]",
+        "My name is (Sophie)[first_name]",
+        "My name is (Sarah)[first_name]",
+        "My name is (Cameron)[first_name]",
+        "My name is (Steven)[first_name]",
+        "My name is (Jessica)[first_name]",
+        "My name is (Jon)[first_name]",
+        "My name is (Ahmed)[first_name]",
+        "My first name is (Lisa)[first_name]"
+      ]
+    },
+    "last_name": 
+    {
+      "open_set": true,
+      "values": 
+      [
+        {
+          "value": "Dupri"
+        },
+        {
+          "value": "Thompson"
+        },
+        {
+          "value": "Snow"
+        },
+        {
+          "value": "Montana"
+        },
+        {
+          "value": "Bond"
+        },
+        {
+          "value": "Patel"
+        },
+        {
+          "value": "Holden"
+        }
+      ],
+      "includes": 
+      [
+        "This is (James)[first_name] (Holden)[last_name]",
+        "I'm (Jon)[first_name] (Snow)[last_name]",
+        "My name is (Ahmed)[first_name] (Snow)[last_name]",
+        "(Jermaine)[first_name] (Dupri)[last_name]",
+        "Hi there, my name is (Bridgette)[first_name] (Patel)[last_name]",
+        "Hi there, I'm (Ahmed)[first_name] (Montana)[last_name]",
+        "The name is (Holden)[last_name], (James)[first_name], (Holden)[last_name]",
+        "(Bond)[last_name], (James)[first_name], (Bond)[last_name]"
+      ]
+    }
+  }
+}
